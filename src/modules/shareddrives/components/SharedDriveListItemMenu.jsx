@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import { useI18n } from 'twake-i18n'
 
 import { useClient } from 'cozy-client'
 import ActionsMenu from 'cozy-ui/transpiled/react/ActionsMenu'
@@ -13,6 +12,7 @@ import Icon from 'cozy-ui/transpiled/react/Icon'
 import IconButton from 'cozy-ui/transpiled/react/IconButton'
 import DotsIcon from 'cozy-ui/transpiled/react/Icons/Dots'
 import { useAlert } from 'cozy-ui/transpiled/react/providers/Alert'
+import { useI18n } from 'twake-i18n'
 
 import { deleteSharedDrive } from '@/modules/shareddrives/components/actions/deleteSharedDrive'
 import { leaveSharedDrive } from '@/modules/shareddrives/components/actions/leaveSharedDrive'

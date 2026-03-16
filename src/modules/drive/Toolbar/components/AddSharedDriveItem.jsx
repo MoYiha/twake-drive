@@ -1,6 +1,5 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { useI18n } from 'twake-i18n'
 
 import { SharedDriveModal } from 'cozy-sharing'
 import ActionsMenuItem from 'cozy-ui/transpiled/react/ActionsMenu/ActionsMenuItem'
@@ -9,6 +8,7 @@ import FileTypeSharedDriveIcon from 'cozy-ui/transpiled/react/Icons/FileTypeShar
 import ListItemIcon from 'cozy-ui/transpiled/react/ListItemIcon'
 import ListItemText from 'cozy-ui/transpiled/react/ListItemText'
 import { useAlert } from 'cozy-ui/transpiled/react/providers/Alert'
+import { useI18n } from 'twake-i18n'
 
 import { showModal } from '@/lib/react-cozy-helpers'
 

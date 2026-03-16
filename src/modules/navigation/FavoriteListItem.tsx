@@ -28,8 +28,8 @@ const makeIcon = (file: IOCozyFile): string | React.ComponentType =>
   isNextcloudShortcut(file) || isSharedDriveFolder(file)
     ? FileTypeServerIcon
     : isDirectory(file)
-    ? FolderIcon
-    : FileIcon
+      ? FolderIcon
+      : FileIcon
 
 const FavoriteListItem: FC<FavoriteListItemProps> = ({
   file,
